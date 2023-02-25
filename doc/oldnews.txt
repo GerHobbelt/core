@@ -283,7 +283,7 @@ Core
 - Added support for reading FoxPro .mem files - Clipper compatibility.
 - Fixed very old bug which disabled writing to .mem files strings
   longer then 32 KiB.
-- hbrun now accepts .dbf file as paramater, which it will open after startup.
+- hbrun now accepts .dbf file as parameter, which it will open after startup.
 - hbrun now accepts -v option which makes it display its own version after
   startup.
 - Borland C++ compiler is now called 'bcc' instead of 'bcc32'. Please update
