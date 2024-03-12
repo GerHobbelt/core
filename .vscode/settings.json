@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.txs": "html",
+        "nappgui.h": "c",
+        "hbapirdd.h": "c",
+        "hbapicdp.h": "c",
+        "*.ch": "c",
+        "*.def": "c",
+        "gui.hxx": "c",
+        "*.ixx": "c"
+    },
+    "files.encoding": "windows1252"
+}

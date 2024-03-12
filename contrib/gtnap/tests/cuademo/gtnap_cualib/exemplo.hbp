@@ -1,0 +1,62 @@
+# Beep at the end of the build
+-beep
+
+# Binary type
+-hbexe
+
+# Its a GUI project
+-gui
+
+# GT
+-gtnap
+-gtwin{msvc}
+-gttrm{gcc}
+
+# Sources
+exemplo.prg
+exemploauxiliar.prg
+exemploentradadados.prg
+exemplomenu.prg
+exemplodbf.prg
+exemplovetor.prg
+exemplotextomemoria.prg
+exemplotextoarquivo.prg
+acentos.prg
+arqtexto.prg
+entrada.prg
+fileio2.prg
+outros.prg
+janela.prg
+selecaoa.prg
+selecaov.prg
+menuvert.prg
+tbrowsesubclass.prg
+stubs.prg
+inkey_.prg
+texto.prg
+
+# Icon
+{msvc}exemplo.rc
+
+# Libraries
+gtnap.hbc
+hbct.hbc
+
+# Harbour compiler options
+-m -a -w -es2 -ql
+-b{DEBUG}
+-d_TESTE{DEBUG}
+-z
+
+
+#
+# To remove...
+#
+# C compiler options
+#-debug{DEBUG}
+
+# From command line
+#-workdir=./build
+#-debug
+#-trace
+# -o.\exemplo

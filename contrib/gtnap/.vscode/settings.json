@@ -1,0 +1,18 @@
+{
+    "files.encoding": "windows1252",
+
+    "cmake.sourceDirectory": "/home/fran/harbour_nappgui/contrib/gtnap",
+    "cmake.buildDirectory": "${workspaceFolder}/build-dev",
+
+    "cmake.configureArgs": [
+        "-DCMAKE_BUILD_CONFIG=Debug",
+        "-DGTNAP_DEVELOPER_MODE=Yes"
+    ],
+    "files.associations": {
+        "*.txs": "html",
+        "*.ixx": "c",
+        "oswindow.inl": "c",
+        "osedit.inl": "c",
+        "ostext.inl": "c"
+    }
+}
