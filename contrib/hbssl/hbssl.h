@@ -215,7 +215,7 @@ extern SSL_SESSION *      hb_SSL_SESSION_par( int iParam );
 
 extern HB_BOOL            hb_X509_is( int iParam );
 extern X509 *             hb_X509_par( int iParam );
-extern void               hb_X509_ret( X509 * x509, HB_BOOL fRelease );
+extern void               hb_X509_ret( X509 * x509 );
 
 extern HB_BOOL            hb_RSA_is( int iParam );
 extern RSA *              hb_RSA_par( int iParam );
